@@ -598,7 +598,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
             </div>
 
             
-                <div className="tools-des relative flex flex-col gap-3 lg:gap-0 lg:flex-row justify-between lg:mt-25  md:mt-11">
+                {/* <div className="tools-des relative flex flex-col gap-3 lg:gap-0 lg:flex-row justify-between lg:mt-25  md:mt-11">
                     <div className="flex justify-center">
                         <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500">Development by: Obadua Oluwafunmito</p>
                     </div>
@@ -609,7 +609,7 @@ If you want to understand the thinking behind the work or you’re ready to crea
                     <a href="x.com/@precious_PY">
                     <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.6rem]">X(TWITTER)</button>
                 </a>
-                </div>
+                </div> */}
 
                     <div>
                     <a href="https://www.linkedin.com/in/precious-triumph-a9472622b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
