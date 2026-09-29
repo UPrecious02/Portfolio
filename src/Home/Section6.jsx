@@ -103,7 +103,7 @@ function Section6(){
             
                 <div className="tools-des relative flex flex-col gap-3 lg:gap-0 lg:flex-row justify-between lg:mt-25  md:mt-11">
                     <div className="flex justify-center">
-                        <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500">Development by: Obadua Oluwafunmito</p>
+                        {/* <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500">Development by: Obadua Oluwafunmito</p> */}
                     </div>
 
                     <div className="flex gap-3 items-center justify-center">
