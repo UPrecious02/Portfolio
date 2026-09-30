@@ -5,12 +5,11 @@ import Section3 from './Home/Section3'
 import Section4 from './Home/Section4'
 import AboutSec1 from './About/AboutSec1'
 import Section5 from './Home/Section5'
-import Section6 from './Home/Section6'
 import Contact from './Contact/Contact'
 import Projects from './Project/Projects'
 import Testimony from './Home/Testimony'
 import Testimony2 from './About/Testimony2'
-import Footer2 from './About/Footer2'
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
 function App() {
@@ -30,7 +29,7 @@ function App() {
               <Section3 />
               
               <Section5 />
-              <Section6 />
+              <Footer />
             </>
           }
         />
@@ -41,7 +40,7 @@ function App() {
           <>
           <AboutSec1 />
           <Testimony2/>
-          <Footer2/>
+          <Footer />
 </>
           }
         />

@@ -1,0 +1,98 @@
+import { motion } from "framer-motion";
+import SplitText from "../SplitText";
+import call from "../assets/call.webp";
+import right from "../assets/right.avif";
+import left from "../assets/left.avif";
+
+function Footer() {
+  return (
+    <section className="lg:px-[85px] px-[20px] md:px-[30px] bg-[#292929] h-auto pb-10 pt-5">
+      <motion.div
+        className="relative h-[77vh] lg:h-auto py-[10px] flex flex-col justify-between rounded-2xl bg-white px-[20px] max-w-350 mx-auto"
+        initial={{ y: 50, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: true, amount: 0.3 }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+      >
+        <div className="absolute left-0 bottom-0">
+          <img src={left} alt="" className="lg:w-110 w-90 h-auto object-cover" />
+        </div>
+        <div className="absolute lg:right-0 md:right-0 md:bottom-0 bottom-0 hidden md:block lg:block">
+          <img src={right} alt="" className="lg:w-104 w-18 md:w-70 h-auto object-cover" />
+        </div>
+
+        <div className="flex flex-col lg:flex-row md:flex-row justify-between items-center relative">
+          <h1 className="tools-des lg:text-[1.5rem] text-[1.2rem] tracking-[-1px]">Precious Triumph</h1>
+          <p className="tools-des text-[1.0rem]">Available to take on new projects!</p>
+        </div>
+
+        <div className="leading-[200px] mt-10 relative hidden lg:block md:block">
+          <h1 className="heading-hero lg:text-[13.625rem] text-[6.25rem] md:text-[13.625rem] uppercase text-center">ready to level up </h1>
+          <h1 className="heading-hero lg:text-[13.625rem] text-[6.25rem] md:text-[13.625rem] uppercase text-center">your website?</h1>
+        </div>
+
+        <div className="leading-[100px] lg:hidden block pt-6 z-20 relative md:hidden">
+          <SplitText
+            text="ready to level up your website"
+            className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center hidden"
+            delay={0.05}
+            duration={0.3}
+            splitType="words"
+            from={{ opacity: 0, y: 40 }}
+            to={{ opacity: 1, y: 0 }}
+          />
+
+          <h2 className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center flex flex-wrap gap-2 justify-center px-[5%] leading-[80px] lg:hidden block">
+            <span><span>R</span><span>E</span><span>A</span><span>D</span><span>Y</span></span>
+            <span><span>T</span><span>O</span></span>
+            <span><span>L</span><span>E</span><span>V</span><span>E</span><span>L</span></span>
+            <span><span>U</span><span>P</span></span>
+            <span><span>Y</span><span>O</span><span>U</span><span>R</span></span>
+            <span><span>W</span><span>E</span><span>B</span><span>S</span><span>I</span><span>T</span><span>E</span><span>?</span></span>
+          </h2>
+
+          <div className="flex justify-center md:mt-10 mt-4">
+            <a href="https://calendly.com/triumphbusiness08/30min">
+              <button className="flex border w-53 justify-center rounded-full h-13 items-center gap-2 text-[1.0rem]">
+                Book a Strategy call
+                <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7">
+                  <img src={call} alt="call icon" className="w-[15px]" />
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div className="tools-des relative flex flex-col gap-3 lg:gap-0 lg:flex-row justify-between lg:mt-25 md:mt-11">
+          <div className="flex gap-3 items-center justify-center">
+            <div>
+              <a href="https://x.com/precious_PY" target="_blank" rel="noopener noreferrer">
+                <button className="flex border lg:px-4 px-3 h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.6rem]">X(TWITTER)</button>
+              </a>
+            </div>
+
+            <div>
+              <a href="https://www.linkedin.com/in/precious-triumph-a9472622b" target="_blank" rel="noopener noreferrer">
+                <button className="flex border lg:px-4 px-3 h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.6rem]">LINKEDIN</button>
+              </a>
+            </div>
+
+            <div>
+              <a href="https://www.instagram.com/precioustriumph_/" target="_blank" rel="noopener noreferrer">
+                <button className="flex border lg:px-4 px-3 h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.6rem]">INSTAGRAM</button>
+              </a>
+            </div>
+          </div>
+
+          <div className="flex justify-center">
+            <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500">
+              ©{new Date().getFullYear()} - All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </motion.div>
+    </section>
+  );
+}
+
+export default Footer;

@@ -9,11 +9,10 @@ import person3 from "../assets/person3.png";
 import person4 from "../assets/person4.jpg";
 import person5 from "../assets/person5.webp";
 import person6 from "../assets/person6.webp";
-import call from "../assets/call.webp";
-import right from "../assets/right.avif";
-import left from "../assets/left.avif";
 import SplitText from "../SplitText";
 import { motion } from "framer-motion";
+import Footer from "../components/Footer";
+
 function Contact(){
     const [menuOpen, setMenuOpen] = useState(false);
     return(
@@ -259,7 +258,7 @@ function Contact(){
     
     <div className="border border-1 mt-6 border-l-0 border-r-0 border-[#ececec99]"></div>
     
-    <p className="text-white lg:text-[1.125rem] md:text-[1.125rem] text-[1rem] tools-des lg:leading-[26px] leading-[20px] lg:mt-10 mt-5 ">Ajide Victor was very eager to support the requests and delivered the in short time. What truly impressed me was his attention to every detail and his willingness to keep working until even the smallest imperfection was resolved. I was very pleased and will hire.</p>
+    <p className="text-white lg:text-[1.125rem] md:text-[1.125rem] text-[1rem] tools-des lg:leading-[26px] leading-[20px] lg:mt-10 mt-5 ">Precious Triumph was very eager to support the requests and delivered the in short time. What truly impressed me was his attention to every detail and his willingness to keep working until even the smallest imperfection was resolved. I was very pleased and will hire.</p>
     </motion.div>
     
     <motion.div className="bg-[#353535] lg:px-[20px] px-[10px] w-full max-w-[510px] h-auto py-[15px] rounded-2xl"
@@ -296,109 +295,7 @@ function Contact(){
             </section>
     
 
-
-
-      <section className="lg:px-[85px] px-[20px] md:px-[30px] bg-[#292929] h-auto pb-10 pt-5">
-            <motion.div className="relative h-auto pb-5 pt-3 rounded-xl bg-white px-[20px] max-w-350 mx-auto"
-             initial={{ y: 50, opacity: 0 }}
-  whileInView={{ y: 0, opacity: 1 }}
-  viewport={{ once: true, amount: 0.3 }}
-  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-            >
-
-<div className="absolute left-0 bottom-0"><img src={left} alt="" className="lg:w-117 w-90  h-auto object-cover" /></div>
-<div className="absolute lg:right-0 md:right-0 md:bottom-0 bottom-0 hidden md:block lg:block"><img src={right} alt="" className="lg:w-115 w-18 md:w-70 h-auto object-cover" /></div>
-
-           <div className="flex flex-col lg:flex-row md:flex-row justify-between items-center relative">
-            <h1 className="tools-des text-[1.5rem]">Udeh Precious</h1>
-            <p className="tools-des text-[1.0rem]">Available to take on new projects!</p>
-            </div> 
-
-            <div className="leading-[200px] mt-10 relative hidden lg:block md:block">
-                <h1 className="heading-hero lg:text-[13.625rem] text-[6.25rem] md:text-[13.625rem] uppercase text-center">ready to level up </h1>
-                <h1 className="heading-hero lg:text-[13.625rem] text-[6.25rem] md:text-[13.625rem] uppercase text-center">your website?</h1>
-            </div>
-
-            <div className="leading-[100px] lg:hidden block pt-6 z-20 relative md:hidden">
-
-<SplitText
-  text="ready to level"
-  className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
-  delay={40}
-  duration={0.2}
-  splitType="chars"
-  from={{ opacity: 0, y: 40 }}
-  to={{ opacity: 1, y: 0 }}
-/>
-
-
-
-<SplitText
-  text="up your"
- className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
-  delay={100}
-  duration={0.2}
-  splitType="chars"
-  from={{ opacity: 0, y: 40 }}
-  to={{ opacity: 1, y: 0 }}
-/>
-
-
-
-<SplitText
-  text="website"
- className="heading-hero lg:text-[13.625rem] text-[6.25rem] uppercase text-center"
-  delay={140}
-  duration={0.2}
-  splitType="chars"
-  from={{ opacity: 0, y: 40 }}
-  to={{ opacity: 1, y: 0 }}
-/>
-
-
-            </div>
-
-            <div className="flex justify-center md:mt-10">
-                    <a href="#">
-                    <button className="flex border w-53 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem]">Book a Strategy call <span className="rounded-full bg-black inline-flex items-center justify-center w-7 h-7    "><img src={call} alt="call icon" className="w-[15px]" /></span></button>
-                </a>
-                </div>
-
-                <div className="tools-des relative flex flex-col gap-3 lg:gap-0 lg:flex-row justify-between lg:mt-25 mt-7 md:mt-11">
-                    {/* <div className="flex justify-center">
-                        <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500">Development by: Obadua Oluwafunmito</p>
-                    </div> */}
-
-                    <div className="flex gap-3 items-center justify-center">
-
-                          <div>
-                    <a href="#">
-                    <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.7rem]">X(TWITTER)</button>
-                </a>
-                </div>
-
-                    <div>
-                    <a href="#">
-                    <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.7rem]">LINKEDIN</button>
-                </a>
-                </div>
-
-                    <div>
-                    <a href="#">
-                    <button className="flex border lg:px-4 px-3  h-7 justify-center rounded-full items-center gap-2 lg:text-[1rem] md:text-[1rem] text-[0.7rem]">INSTAGRAM</button>
-                </a>
-                </div>
-
-                </div>
-                     
-        <div className="flex justify-center">
-            <p className="lg:text-[1rem] md:text-[1rem] text-[0.8rem] text-gray-500 ">©2025 - All Rights Reserved</p>
-        </div>
-                     
-                </div>
-</motion.div>
-
-        </section>
+      <Footer />
 
        </section>
     )
