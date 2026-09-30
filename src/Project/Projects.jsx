@@ -146,8 +146,8 @@ If you want to understand the thinking behind the work or you’re ready to crea
             </a>
                         </div>
         
-                        <div>
-                            <img src={proj1} alt="" className=" rounded-xl lg:w-220 lg:h-70" />
+                        <div className="lg:shrink-0">
+                            <img src={proj1} alt="" className="rounded-xl aspect-[16/10] object-cover object-top lg:w-[clamp(380px,40vw,560px)]" />
                         </div>
         
                     </motion.div>
@@ -180,8 +180,8 @@ If you want to understand the thinking behind the work or you’re ready to crea
     </a>
                 </div>
 
-                <div>
-                    <img src={proj2} alt="" className="rounded-xl lg:w-290 lg:h-70 rounded-xl" />
+                <div className="lg:shrink-0">
+                    <img src={proj2} alt="" className="rounded-xl aspect-[16/10] object-cover object-top lg:w-[clamp(380px,40vw,560px)]" />
                 </div>
 
             </motion.div>
@@ -215,8 +215,8 @@ If you want to understand the thinking behind the work or you’re ready to crea
     </a>
                 </div>
 
-                <div>
-                    <img src={proj3} alt="" className="rounded-xl lg:w-190 lg:h-70" />
+                <div className="lg:shrink-0">
+                    <img src={proj3} alt="" className="rounded-xl aspect-[16/10] object-cover object-top lg:w-[clamp(380px,40vw,560px)]" />
                 </div>
 
             </motion.div>
@@ -247,8 +247,8 @@ If you want to understand the thinking behind the work or you’re ready to crea
     </a>
                 </div>
 
-                <div>
-                <img src={proj4} alt="" className="rounded-xl lg:w-240 lg:h-70" />
+                <div className="lg:shrink-0">
+                <img src={proj4} alt="" className="rounded-xl aspect-[16/10] object-cover object-top lg:w-[clamp(380px,40vw,560px)]" />
                 </div>
 
             </motion.div>
@@ -283,8 +283,8 @@ If you want to understand the thinking behind the work or you’re ready to crea
     </a>
                 </div>
 
-                <div>
-                    <img src={proj5} alt="" className="rounded-xl lg:w-270 lg:h-70" />
+                <div className="lg:shrink-0">
+                    <img src={proj5} alt="" className="rounded-xl aspect-[16/10] object-cover object-top lg:w-[clamp(380px,40vw,560px)]" />
                 </div>
 
             </motion.div>
@@ -320,8 +320,8 @@ If you want to understand the thinking behind the work or you’re ready to crea
     </a>
                 </div>
 
-                <div>
-                    <img src={proj6} alt="" className="rounded-xl lg:w-150 lg:h-70" />
+                <div className="lg:shrink-0">
+                    <img src={proj6} alt="" className="rounded-xl aspect-[16/10] object-cover object-top lg:w-[clamp(380px,40vw,560px)]" />
                 </div>
 
             </motion.div>
@@ -356,8 +356,8 @@ If you want to understand the thinking behind the work or you’re ready to crea
     </a>
                 </div>
 
-                <div>
-                    <img src={proj7} alt="" className="rounded-xl lg:w-290 lg:h-70" />
+                <div className="lg:shrink-0">
+                    <img src={proj7} alt="" className="rounded-xl aspect-[16/10] object-cover object-top lg:w-[clamp(380px,40vw,560px)]" />
                 </div>
 
             </motion.div>
@@ -392,8 +392,8 @@ If you want to understand the thinking behind the work or you’re ready to crea
     </a>
                 </div>
 
-                <div>
-                    <img src={proj8} alt="" className="rounded-xl lg:w-290 lg:h-70" />
+                <div className="lg:shrink-0">
+                    <img src={proj8} alt="" className="rounded-xl aspect-[16/10] object-cover object-top lg:w-[clamp(380px,40vw,560px)]" />
                 </div>
 
             </motion.div>
@@ -424,8 +424,8 @@ If you want to understand the thinking behind the work or you’re ready to crea
     </a>
                 </div>
 
-                <div>
-                    <img src={proj9} alt="" className="rounded-xl lg:w-290 lg:h-70" />
+                <div className="lg:shrink-0">
+                    <img src={proj9} alt="" className="rounded-xl aspect-[16/10] object-cover object-top lg:w-[clamp(380px,40vw,560px)]" />
                 </div>
 
             </motion.div>
@@ -457,8 +457,8 @@ If you want to understand the thinking behind the work or you’re ready to crea
     </a>
                 </div>
 
-                <div>
-                    <img src={proj10} alt="" className="rounded-xl lg:w-290 lg:h-70" />
+                <div className="lg:shrink-0">
+                    <img src={proj10} alt="" className="rounded-xl aspect-[16/10] object-cover object-top lg:w-[clamp(380px,40vw,560px)]" />
                 </div>
 
             </motion.div>
@@ -491,8 +491,8 @@ If you want to understand the thinking behind the work or you’re ready to crea
     </a>
                 </div>
 
-                <div>
-                    <img src={proj11} alt="" className="rounded-xl lg:w-290 lg:h-70" />
+                <div className="lg:shrink-0">
+                    <img src={proj11} alt="" className="rounded-xl aspect-[16/10] object-cover object-top lg:w-[clamp(380px,40vw,560px)]" />
                 </div>
 
             </motion.div>
